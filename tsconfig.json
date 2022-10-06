@@ -1,0 +1,16 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "types": ["node"],
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@layout/*": ["layout/*"],
+      "@screens/*": ["screens/*"],
+    }
+  }
+}
